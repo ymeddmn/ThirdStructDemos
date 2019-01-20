@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="interview.horse.example.com.usermodel">
+
+    <application
+        >
+        <activity android:name=".UserActivity">
+
+        </activity>
+    </application>
+
+</manifest>

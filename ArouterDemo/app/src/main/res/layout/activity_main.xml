@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="interview.horse.example.com.arouterdemo.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btn_tosecond"
+        android:text="跳转secondactivity"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_withparams"
+        android:layout_width="match_parent"
+        android:text="带参数跳转"
+        android:layout_height="wrap_content" />
+</LinearLayout>

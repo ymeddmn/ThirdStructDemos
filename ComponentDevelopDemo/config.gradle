@@ -1,0 +1,22 @@
+ext {
+    applicationId = "com.horse.example.component"
+
+    models = [
+            login: [
+                    isAlone: false,
+                    appid  : "${applicationId}.login"
+            ],
+            user : [
+                    isAlone: false,
+                    appid  : "${applicationId}.user"
+            ]
+    ]
+
+    depency = [
+            appcompat: 'com.android.support:appcompat-v7:27.1.1',
+            arouterapi: 'com.alibaba:arouter-api:1.2.41',
+            aroutercompile: 'com.alibaba:arouter-compiler:1.1.4'
+    ]
+
+
+}
