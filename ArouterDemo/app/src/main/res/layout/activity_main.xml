@@ -17,4 +17,19 @@
         android:layout_width="match_parent"
         android:text="带参数跳转"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_third"
+        android:layout_width="match_parent"
+        android:text="跳转到有转场动画的ThirdActivity,跳转完成关闭Mainactivity"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_interceptor"
+        android:layout_width="match_parent"
+        android:text="跳转拦截器并且用ARouterInterceptor进行拦截"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_turnfragment"
+        android:layout_width="match_parent"
+        android:text="fragment之间通信"
+        android:layout_height="wrap_content" />
 </LinearLayout>
